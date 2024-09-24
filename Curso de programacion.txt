@@ -1,0 +1,47 @@
+HTML-CSS-JS
+
+HTML: Para hacer la estructura
+CSS: Para hacer la parte visual mas linda
+JS: Da funcionalidad, le da vida
+
+figma: sirve para hacer un mog.
+miro: otra opcion ademas de figma, para hacer wareframes.
+maquetadorweb: haces un boceto, croquis de la pagina para el cliente, y despues de ahi programar.
+
+ID: interfaz de desarrollo, entorno de desarrollo
+
+desarrollo web-conocer css-algun framework-php-backend-java-plataforma de chrome(oracle-azure)-servidores virtuales-
+
+ver modulo 1-2-3 (para mañana miercoles)
+
+escalamiento vertical: es aumentar las partes fisicas, el harware de el servidor, aumento los recursos
+escalamiento horizontal: (docker), duplica la maquinaria (?
+
+ecomers: mercado libre y esas paginas
+
+boceto borrador: warframe,mog
+diseño: estilos manual de marca
+
+ACLARACIÓN: Primero viene el warframe (que es algo sin color, sin fotos, el esqueleto digamos),
+despues viene el boceto o prototipo, que es  algo con color, diseño, fuente, logo, ya algo con vestido, 
+hasta puede ser interactivo.
+
+ux/ui (investigar)
+
+Dejo el link a las clases grabadas en la descripción del grupo: 
+https://drive.google.com/drive/folders/1xEQ0cQZYKQbetorzV3XoV3uUjUUsKUpB?usp=sharing
+
+l link de clase es todos los dias mismo y queda siempre en la descripción del grupo. Para tenerlo a mano ▶️
+
+
+https://us06web.zoom.us/j/89478586918?pwd=1abSKOGXOgY9IlZvis7E9dpPKltdY1.1
+
+ID de reunión: 894 7858 6918
+Código de acceso: 123
+
+servicios de storage
+
+freecodecamp
+devolpermoxilla
+
+
