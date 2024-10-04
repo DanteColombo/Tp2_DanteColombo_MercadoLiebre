@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <a href="http://127.0.0.1:5501/Html/Clases/home.html">
+            <img width="240" height="240" src="/Images/logo-mercado-liebre.svg" alt="imagen de mercado liebre">
+        </a>
+
+        <div class="Ingresar">
+            <a href="http://127.0.0.1:5501/Html/Clases/login.html?Nombre+de+usuario=&contrase%C3%B1a=cz#">Ingresá</a>
+        </div>
+
+        <div class="Resgistro">
+            <a href="http://127.0.0.1:5501/Html/Clases/register.html">Registrate</a>
+        </div>
+    </header>
+    <main>
+        <h2>Registro de usuario:</h2>
+        <form action="#" method="get">
+
+            <div class="Registro">
+                <label for="nombre_apellido"></label>
+                <input type="text" placeholder="Nombre y apellido" id="nombre_apellido">
+
+                <label for="usuario"></label>
+                <input type="text" placeholder="Usuario" id="usuario">
+
+                <label for="email"></label>
+                <input type="email" placeholder="email" id="email">
+
+                <label for="nacimiento"></label>
+                <input type="date" id="nacimiento">
+
+                <label for="domicilio"></label>
+                <input type="text" placeholder="domicilio" id="domicilio">
+            </div>
+
+            <div class="Perfil del usuario">
+                <label for="Vendedor">Vendedor</label>
+                <input type="radio" name="Elija_opcion" value="Vendedor" id="Vendedor">
+
+                <label for="Comprador">Comprador</label>
+                <input type="radio" name="Elija_opcion" value="Comprador" id="Comprador">
+            </div>
+
+            <div class="Categorías de interes">
+                <label for="Electro">Electro</label>
+                <input type="checkbox" name="Cosas" value="Electro" id="Electro"> 
+
+                <label for="Moda">Moda</label>
+                <input type="checkbox" name="Cosas" value="Moda" id="Moda">
+
+                <label for="Hogar">Hogar</label>
+                <input type="checkbox" name="Cosas" value="Hogar" id="Hogar">
+
+                <label for="Jugueteria">Juguetería</label>
+                <input type="checkbox" name="Cosas" value="Jugueteria" id="Jugueteria">
+
+                <label for="Vida_sana">Vida sana</label>
+                <input type="checkbox" name="Cosas" value="Vida_sana" id="Vida_sana">
+            </div>
+
+            <div class="Foto y contraseña">
+                <label for="foto"></label>
+                <input type="file" name="foto" id="foto" accept="image/png, image/jpeg">
+
+                <label for="contraseña"></label>
+                <input type="password" placeholder="ingrese su contraseña" id="contraseña">
+                <label for="confirmacion_contraseña"></label>
+                <input type="password" placeholder="Confirmar contraseña" id="confirmacion_contraseña">
+            </div>
+
+            <div class="Envio de datos y cancelacion">
+                <button type="submit">Enviar datos</button>
+                <button type="reset">Cancelar envio de datos</button>
+            </div>
+
+            </form>
+    </main>
+
+    <footer>
+        <div class="footer_section" >
+            <h4>Pagá con trajeta o en efectivo</h4>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
+            efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+        </div>
+
+        <div class="footer_section" >
+            <h4>Envío gratis desde $ 2.500</h4>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
+            miles de productos. Es un beneficio de Mercado Puntos.</p>
+        </div>
+
+        <div class="footer_section" >
+            <h4>Seguridad de principio a fin</h4>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no
+            puedas hacer, porque estás siempre protegid@.</p>
+        </div>
+
+        <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+    </footer>
+    
+</body>
+</html>
