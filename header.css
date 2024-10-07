@@ -6,8 +6,16 @@ header{
     font-weight: 100;
     font-style: normal;
 }
-
-
+@media (min-width: 768px) and (max-width: 1023px){
+    .buger_menu1{
+        display: none;
+    }
+}
+@media (max-width: 767px){
+    .header__nav{
+        display: none;
+    }
+}
 
 .hola{
     padding: 0%;
