@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
+    <script src="https://kit.fontawesome.com/d4940f2a62.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./Register.css">
 </head>
 <body>
     <header>
@@ -12,75 +16,84 @@
         </a>
 
         <div class="Ingresar">
-            <a href="http://127.0.0.1:5501/login.html">Ingresá</a>
+            <li class="header__li"><a href="http://127.0.0.1:5501/login.html">Ingresá</a> <i class="fa-solid fa-right-to-bracket"></i></li>
         </div>
 
         <div class="Resgistro">
-            <a href="http://127.0.0.1:5501/register.html">Registrate</a>
+            <li class="header__li"><a href="http://127.0.0.1:5501/register.html">Creá tu cuenta</a> <i class="fa-regular fa-id-card"></i></li>
         </div>
     </header>
     <main>
         <h2>Registro de usuario:</h2>
-        <form action="#" method="get">
+        <div class="Registro_del_usuario">
+            <form action="#" method="get">
 
-            <div class="Registro">
-                <label for="nombre_apellido"></label>
-                <input type="text" placeholder="Nombre y apellido" id="nombre_apellido">
+                <div class="Registro">
+                    <label for="nombre_apellido"></label>
+                    <input type="text" placeholder="Nombre y apellido" id="nombre_apellido">
 
-                <label for="usuario"></label>
-                <input type="text" placeholder="Usuario" id="usuario">
+                    <label for="usuario"></label>
+                    <input type="text" placeholder="Usuario" id="usuario">
 
-                <label for="email"></label>
-                <input type="email" placeholder="email" id="email">
+                    <label for="email"></label>
+                    <input type="email" placeholder="email" id="email">
+                </div>
 
-                <label for="nacimiento"></label>
-                <input type="date" id="nacimiento">
+                <div class="fecha_domicilio">
+                    <h4>Fecha de nacimiento</h4>
+                    <label for="nacimiento"></label>
+                    <input type="date" id="nacimiento"><br>
 
-                <label for="domicilio"></label>
-                <input type="text" placeholder="domicilio" id="domicilio">
-            </div>
+                    <label for="domicilio"></label>
+                    <input type="text" placeholder="domicilio" id="domicilio">
+                </div>
 
-            <div class="Perfil del usuario">
-                <label for="Vendedor">Vendedor</label>
-                <input type="radio" name="Elija_opcion" value="Vendedor" id="Vendedor">
+                <div class="Perfil del usuario">
+                    <h4>Perfil del usuario</h4>
+                    <input type="radio" name="Elija_opcion" value="Vendedor" id="Vendedor">
+                    <label for="Vendedor">Vendedor</label>
+                    
+                    <input type="radio" name="Elija_opcion" value="Comprador" id="Comprador">
+                    <label for="Comprador">Comprador</label>
+                </div>
 
-                <label for="Comprador">Comprador</label>
-                <input type="radio" name="Elija_opcion" value="Comprador" id="Comprador">
-            </div>
+                <div class="Categorías de interes">
+                    <h4>Intereses</h4>
 
-            <div class="Categorías de interes">
-                <label for="Electro">Electro</label>
-                <input type="checkbox" name="Cosas" value="Electro" id="Electro"> 
+                    <input type="checkbox" name="Cosas" value="Electro" id="Electro">
+                    <label for="Electro">Electro</label><br>
+                    
+                    <input type="checkbox" name="Cosas" value="Moda" id="Moda">
+                    <label for="Moda">Moda</label><br>
+                    
+                    <input type="checkbox" name="Cosas" value="Hogar" id="Hogar">
+                    <label for="Hogar">Hogar</label><br>
+                    
+                    <input type="checkbox" name="Cosas" value="Jugueteria" id="Jugueteria">
+                    <label for="Jugueteria">Juguetería</label><br>
+                    
+                    <input type="checkbox" name="Cosas" value="Vida_sana" id="Vida_sana">
+                    <label for="Vida_sana">Vida sana</label><br>
 
-                <label for="Moda">Moda</label>
-                <input type="checkbox" name="Cosas" value="Moda" id="Moda">
+                </div>
 
-                <label for="Hogar">Hogar</label>
-                <input type="checkbox" name="Cosas" value="Hogar" id="Hogar">
+                <div class="Foto y contraseña">
+                    <label for="foto"></label>
+                    <input type="file" name="foto" id="foto" accept="image/png, image/jpeg">
 
-                <label for="Jugueteria">Juguetería</label>
-                <input type="checkbox" name="Cosas" value="Jugueteria" id="Jugueteria">
+                    <label for="contraseña"></label>
+                    <input type="password" placeholder="ingrese su contraseña" id="contraseña">
+                    <label for="confirmacion_contraseña"></label>
+                    <input type="password" placeholder="Confirmar contraseña" id="confirmacion_contraseña">
+                </div>
 
-                <label for="Vida_sana">Vida sana</label>
-                <input type="checkbox" name="Cosas" value="Vida_sana" id="Vida_sana">
-            </div>
+                <div class="Envio de datos y cancelacion">
+                    <button type="submit">Enviar datos</button>
+                    <button type="reset">Cancelar envio de datos</button>
+                </div>
 
-            <div class="Foto y contraseña">
-                <label for="foto"></label>
-                <input type="file" name="foto" id="foto" accept="image/png, image/jpeg">
-
-                <label for="contraseña"></label>
-                <input type="password" placeholder="ingrese su contraseña" id="contraseña">
-                <label for="confirmacion_contraseña"></label>
-                <input type="password" placeholder="Confirmar contraseña" id="confirmacion_contraseña">
-            </div>
-
-            <div class="Envio de datos y cancelacion">
-                <button type="submit">Enviar datos</button>
-                <button type="reset">Cancelar envio de datos</button>
-            </div>
-
-            </form>
+                </form>
+        </div>
     </main>
 
     <footer>

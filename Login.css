@@ -1,0 +1,105 @@
+header{
+    background-color: #EAC926;
+    margin: 0% auto;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.header__nav{
+    list-style: none;
+
+}
+.div_menu{
+
+
+    .header__nav1 ul{
+        display: flex;
+        flex-direction:row ;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header__nav2 ul{
+        display: flex;
+        flex-direction:row ;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        justify-content: flex-end;
+    }
+}
+
+.header__li{
+    padding: 20px;
+    }
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", system-ui;
+    font-weight: 100;
+    font-style: normal;
+}
+
+main{
+    background-color: #ebebeb;
+}
+
+.section_header{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+
+
+    .buscador{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .buscador input{
+        padding: 10px;
+        width: 500px;
+    }
+    
+}
+
+
+.formulario{
+    margin: 0 auto;
+    width: fit-content;
+}
+.formulario div {
+    margin-bottom: 15px;
+    padding-top: 5%;
+}
+
+.formulario input{
+    width: 500px;
+    padding: 10px
+}
+
+.formulario button{
+    width: 500px;
+    color: white;
+    background-color:#1259c3;
+    padding: 10px;
+}

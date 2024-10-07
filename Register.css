@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", system-ui;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header{
+    background-color: #EAC926;
+    margin: 0% auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+main{
+    background-color: #ebebeb;
+}
+
+
+.Registro_del_usuario input{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc; 
+
+    
+
+    .Registro input{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        
+        
+    
+        
+
+    }
+
+
+
+}
