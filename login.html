@@ -6,6 +6,8 @@
     <title>Ingreso</title>
     <link rel="stylesheet" href="./Login.css">
     <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/d4940f2a62.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,13 +19,13 @@
         
         <section class="section_header">
             <a href="http://127.0.0.1:5501/home.html">
-                <img width="240" height="240" src="/Images/logo-mercado-liebre.svg" alt="imagen de mercado liebre">
+                <img  src="/Images/logo-mercado-liebre.svg" alt="imagen de mercado liebre" id="imagen_mercado_liebre">
             </a>
 
             <div class="buscador">
                 <form action="#">
                     <input type="text" placeholder="Buscar productos">
-                    <button type="submit">Buscar</button>
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
 
@@ -31,10 +33,10 @@
                 <i class="fa-solid fa-hand-holding"></i><a href="">Comprá en cuotas y sin tarjeta de credito</a>
             </div>
         </section>
-    
 
 
         <div class="div_menu">
+            
             <nav class="header__nav1">
                 <ul class="header_ul">
                     <li class="header__li"><a href="">Ofertas</a></li>
@@ -52,6 +54,12 @@
                 </ul>
             </nav>    
         </div> 
+
+        <article class="buger_menu1">
+            <div class="burger-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </article>
  
         
     </header>
