@@ -7,13 +7,7 @@ header{
     font-style: normal;
 }
 
-.hola{
-    padding: 0%;
-}
 
-.xd{
-    padding: 0%;
-}
 
 a{
     text-decoration: none;
@@ -45,6 +39,7 @@ li{
 
     .header__nav1 ul{
         display: flex;
+        padding: 0;
         
     }
 
