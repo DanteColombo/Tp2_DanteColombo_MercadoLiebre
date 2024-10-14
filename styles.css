@@ -54,9 +54,6 @@ p{
     .buger_menu1{
         display: none;
     }
-    .product{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
     
 }
 
@@ -70,3 +67,25 @@ p{
     }
 }
 
+
+@media (min-width: 1024px){
+    footer{
+        i:hover{
+        color: purple;
+        }
+    }
+    .caja h4{
+        max-height: 0;
+        overflow: hidden;
+        visibility: hidden;
+    }
+    
+    .caja:hover h4{
+        opacity: 1;
+        visibility: visible;
+        max-height: 100px
+    }
+    .product:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}

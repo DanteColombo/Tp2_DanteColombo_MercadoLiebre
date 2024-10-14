@@ -35,20 +35,19 @@
 }
 
 .detalles{
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: start;
     border-top: solid 1px #ebebeb;
+
     h4{
-        margin-top: 0px;
         margin-left: 15px;
     }
-    
-
-    
 
     h6{
         color: #39b54a;
+        margin-bottom: 0px;
     }
 
     i{
@@ -59,9 +58,11 @@
         display: flex;               
         justify-content: center;       
         align-items: center;         
-        padding: 2%;   
+        padding: 2%;
     }
-
+    i:hover{
+        transform: rotate(-90deg);
+    }
    
 
 }
@@ -70,7 +71,9 @@
     justify-content: end;
     margin-right: 20px;
     margin-top: -15px;
+    
 }
+
 
 
 
@@ -96,22 +99,16 @@ article{
     
     h6{
         width: 70%;
+        margin-top: 0;
         
         
     }
     h3{
         width: 30%;
-        
-        
+        margin-bottom: 0;
+        margin-top: 0;
     }
 }
-
-
-
-
-
-
-
 
 
 
